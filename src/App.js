@@ -30,7 +30,6 @@ function App() {
   const userData = useSelector((state) => state.userData);
   const rols = useSelector((state) => state.rols);
 
-  useEffect(() => alert("Admin Page toje est"), []);
 
   return (
     <OrdersContext.Provider value={{ orders, setOrders, done, setDone }}>
